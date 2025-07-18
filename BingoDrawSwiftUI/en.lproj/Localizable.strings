@@ -1,0 +1,39 @@
+/* No comment provided by engineer. */
+"CONTENT_ALERT_TITLE" = "Warning";
+
+/* Localizable.strings
+  BingoDrawSwiftUI
+
+  Created by Taha DEMİREL on 27.06.2025. */
+"CONTENT_DRAWN_NUMBER" = "Drawn Number";
+
+/* No comment provided by engineer. */
+"CONTENT_PAUSE_BUTTON_TITLE" = "Pause";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_BUTTON_TITLE" = "Reset";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_ALERT_MESSAGE" = "Are you sure you want to reset the game?\n";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_CANCEL_BUTTON_TITLE" = "Cancel";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_RESET_BUTTON_TITLE" = "Reset";
+
+/* No comment provided by engineer. */
+"CONTENT_RESUME_BUTTON_TITLE" = "Resume";
+
+/* No comment provided by engineer. */
+"CONTENT_START_BUTTON_TITLE" = "Start";
+
+/* No comment provided by engineer. */
+"SETTINGS_DRAW_INTERVAL_SETTING" = "Draw Interval Setting";
+
+/* No comment provided by engineer. */
+"SETTINGS_EVERY " = "Every";
+
+/* No comment provided by engineer. */
+"SETTINGS_SECONDS_PER_DRAW" = "Seconds per draw";
+

@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6326ECF02E097ED700E86200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6326ECEF2E097ED700E86200 /* LaunchScreen.storyboard */; };
+		6326ECF22E098F1900E86200 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6326ECF12E098F1900E86200 /* SplashView.swift */; };
+		63B724442E0E73530005FBAE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63B724462E0E73530005FBAE /* Localizable.strings */; };
+		63CC2CEB2DEF03FB000D177E /* BingoDrawSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2CEA2DEF03FB000D177E /* BingoDrawSwiftUIApp.swift */; };
+		63CC2CED2DEF03FB000D177E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2CEC2DEF03FB000D177E /* ContentView.swift */; };
+		63CC2CEF2DEF03FC000D177E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC2CEE2DEF03FC000D177E /* Assets.xcassets */; };
+		63CC2CF22DEF03FC000D177E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CC2CF12DEF03FC000D177E /* Preview Assets.xcassets */; };
+		63CC2CFC2DEF03FC000D177E /* BingoDrawSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2CFB2DEF03FC000D177E /* BingoDrawSwiftUITests.swift */; };
+		63CC2D062DEF03FC000D177E /* BingoDrawSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2D052DEF03FC000D177E /* BingoDrawSwiftUIUITests.swift */; };
+		63CC2D082DEF03FC000D177E /* BingoDrawSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2D072DEF03FC000D177E /* BingoDrawSwiftUIUITestsLaunchTests.swift */; };
+		63CC2D4F2DFA0D9D000D177E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC2D4E2DFA0D9D000D177E /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63CC2CF82DEF03FC000D177E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CC2CDF2DEF03FB000D177E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CC2CE62DEF03FB000D177E;
+			remoteInfo = BingoDrawSwiftUI;
+		};
+		63CC2D022DEF03FC000D177E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CC2CDF2DEF03FB000D177E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CC2CE62DEF03FB000D177E;
+			remoteInfo = BingoDrawSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631173DF2E26BFF600572A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6326ECEF2E097ED700E86200 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6326ECF12E098F1900E86200 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		63B724452E0E73530005FBAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63B724472E0ED4C50005FBAE /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		63CC2CE72DEF03FB000D177E /* BingoDrawSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoDrawSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CC2CEA2DEF03FB000D177E /* BingoDrawSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoDrawSwiftUIApp.swift; sourceTree = "<group>"; };
+		63CC2CEC2DEF03FB000D177E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63CC2CEE2DEF03FC000D177E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CC2CF12DEF03FC000D177E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63CC2CF72DEF03FC000D177E /* BingoDrawSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoDrawSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CC2CFB2DEF03FC000D177E /* BingoDrawSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoDrawSwiftUITests.swift; sourceTree = "<group>"; };
+		63CC2D012DEF03FC000D177E /* BingoDrawSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoDrawSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CC2D052DEF03FC000D177E /* BingoDrawSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoDrawSwiftUIUITests.swift; sourceTree = "<group>"; };
+		63CC2D072DEF03FC000D177E /* BingoDrawSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoDrawSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63CC2D4E2DFA0D9D000D177E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CC2CE42DEF03FB000D177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CF42DEF03FC000D177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CFE2DEF03FC000D177E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CC2CDE2DEF03FB000D177E = {
+			isa = PBXGroup;
+			children = (
+				63CC2CE92DEF03FB000D177E /* BingoDrawSwiftUI */,
+				63CC2CFA2DEF03FC000D177E /* BingoDrawSwiftUITests */,
+				63CC2D042DEF03FC000D177E /* BingoDrawSwiftUIUITests */,
+				63CC2CE82DEF03FB000D177E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CC2CE82DEF03FB000D177E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CC2CE72DEF03FB000D177E /* BingoDrawSwiftUI.app */,
+				63CC2CF72DEF03FC000D177E /* BingoDrawSwiftUITests.xctest */,
+				63CC2D012DEF03FC000D177E /* BingoDrawSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CC2CE92DEF03FB000D177E /* BingoDrawSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				631173DF2E26BFF600572A2C /* Info.plist */,
+				63CC2CEA2DEF03FB000D177E /* BingoDrawSwiftUIApp.swift */,
+				63B724462E0E73530005FBAE /* Localizable.strings */,
+				63CC2CEC2DEF03FB000D177E /* ContentView.swift */,
+				6326ECF12E098F1900E86200 /* SplashView.swift */,
+				63CC2D4E2DFA0D9D000D177E /* SettingsView.swift */,
+				63CC2CEE2DEF03FC000D177E /* Assets.xcassets */,
+				63CC2CF02DEF03FC000D177E /* Preview Content */,
+				6326ECEF2E097ED700E86200 /* LaunchScreen.storyboard */,
+			);
+			path = BingoDrawSwiftUI;
+			sourceTree = "<group>";
+		};
+		63CC2CF02DEF03FC000D177E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63CC2CF12DEF03FC000D177E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63CC2CFA2DEF03FC000D177E /* BingoDrawSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63CC2CFB2DEF03FC000D177E /* BingoDrawSwiftUITests.swift */,
+			);
+			path = BingoDrawSwiftUITests;
+			sourceTree = "<group>";
+		};
+		63CC2D042DEF03FC000D177E /* BingoDrawSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63CC2D052DEF03FC000D177E /* BingoDrawSwiftUIUITests.swift */,
+				63CC2D072DEF03FC000D177E /* BingoDrawSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = BingoDrawSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63CC2CE62DEF03FB000D177E /* BingoDrawSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CC2D0B2DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUI" */;
+			buildPhases = (
+				63CC2CE32DEF03FB000D177E /* Sources */,
+				63CC2CE42DEF03FB000D177E /* Frameworks */,
+				63CC2CE52DEF03FB000D177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingoDrawSwiftUI;
+			productName = BingoDrawSwiftUI;
+			productReference = 63CC2CE72DEF03FB000D177E /* BingoDrawSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63CC2CF62DEF03FC000D177E /* BingoDrawSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CC2D0E2DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUITests" */;
+			buildPhases = (
+				63CC2CF32DEF03FC000D177E /* Sources */,
+				63CC2CF42DEF03FC000D177E /* Frameworks */,
+				63CC2CF52DEF03FC000D177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CC2CF92DEF03FC000D177E /* PBXTargetDependency */,
+			);
+			name = BingoDrawSwiftUITests;
+			productName = BingoDrawSwiftUITests;
+			productReference = 63CC2CF72DEF03FC000D177E /* BingoDrawSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63CC2D002DEF03FC000D177E /* BingoDrawSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CC2D112DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUIUITests" */;
+			buildPhases = (
+				63CC2CFD2DEF03FC000D177E /* Sources */,
+				63CC2CFE2DEF03FC000D177E /* Frameworks */,
+				63CC2CFF2DEF03FC000D177E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CC2D032DEF03FC000D177E /* PBXTargetDependency */,
+			);
+			name = BingoDrawSwiftUIUITests;
+			productName = BingoDrawSwiftUIUITests;
+			productReference = 63CC2D012DEF03FC000D177E /* BingoDrawSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CC2CDF2DEF03FB000D177E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					63CC2CE62DEF03FB000D177E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					63CC2CF62DEF03FC000D177E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63CC2CE62DEF03FB000D177E;
+					};
+					63CC2D002DEF03FC000D177E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63CC2CE62DEF03FB000D177E;
+					};
+				};
+			};
+			buildConfigurationList = 63CC2CE22DEF03FB000D177E /* Build configuration list for PBXProject "BingoDrawSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 63CC2CDE2DEF03FB000D177E;
+			productRefGroup = 63CC2CE82DEF03FB000D177E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CC2CE62DEF03FB000D177E /* BingoDrawSwiftUI */,
+				63CC2CF62DEF03FC000D177E /* BingoDrawSwiftUITests */,
+				63CC2D002DEF03FC000D177E /* BingoDrawSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CC2CE52DEF03FB000D177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6326ECF02E097ED700E86200 /* LaunchScreen.storyboard in Resources */,
+				63B724442E0E73530005FBAE /* Localizable.strings in Resources */,
+				63CC2CF22DEF03FC000D177E /* Preview Assets.xcassets in Resources */,
+				63CC2CEF2DEF03FC000D177E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CF52DEF03FC000D177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CFF2DEF03FC000D177E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CC2CE32DEF03FB000D177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CC2D4F2DFA0D9D000D177E /* SettingsView.swift in Sources */,
+				6326ECF22E098F1900E86200 /* SplashView.swift in Sources */,
+				63CC2CED2DEF03FB000D177E /* ContentView.swift in Sources */,
+				63CC2CEB2DEF03FB000D177E /* BingoDrawSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CF32DEF03FC000D177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CC2CFC2DEF03FC000D177E /* BingoDrawSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CC2CFD2DEF03FC000D177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CC2D082DEF03FC000D177E /* BingoDrawSwiftUIUITestsLaunchTests.swift in Sources */,
+				63CC2D062DEF03FC000D177E /* BingoDrawSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63CC2CF92DEF03FC000D177E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CC2CE62DEF03FB000D177E /* BingoDrawSwiftUI */;
+			targetProxy = 63CC2CF82DEF03FC000D177E /* PBXContainerItemProxy */;
+		};
+		63CC2D032DEF03FC000D177E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CC2CE62DEF03FB000D177E /* BingoDrawSwiftUI */;
+			targetProxy = 63CC2D022DEF03FC000D177E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B724462E0E73530005FBAE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B724452E0E73530005FBAE /* en */,
+				63B724472E0ED4C50005FBAE /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63CC2D092DEF03FC000D177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63CC2D0A2DEF03FC000D177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63CC2D0C2DEF03FC000D177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingoDrawSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BingoDrawSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63CC2D0D2DEF03FC000D177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingoDrawSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BingoDrawSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63CC2D0F2DEF03FC000D177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoDrawSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingoDrawSwiftUI";
+			};
+			name = Debug;
+		};
+		63CC2D102DEF03FC000D177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingoDrawSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingoDrawSwiftUI";
+			};
+			name = Release;
+		};
+		63CC2D122DEF03FC000D177E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingoDrawSwiftUI;
+			};
+			name = Debug;
+		};
+		63CC2D132DEF03FC000D177E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4FT5HYNT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntd.BingoDrawSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BingoDrawSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CC2CE22DEF03FB000D177E /* Build configuration list for PBXProject "BingoDrawSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CC2D092DEF03FC000D177E /* Debug */,
+				63CC2D0A2DEF03FC000D177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CC2D0B2DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CC2D0C2DEF03FC000D177E /* Debug */,
+				63CC2D0D2DEF03FC000D177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CC2D0E2DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CC2D0F2DEF03FC000D177E /* Debug */,
+				63CC2D102DEF03FC000D177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CC2D112DEF03FC000D177E /* Build configuration list for PBXNativeTarget "BingoDrawSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CC2D122DEF03FC000D177E /* Debug */,
+				63CC2D132DEF03FC000D177E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CC2CDF2DEF03FB000D177E /* Project object */;
+}

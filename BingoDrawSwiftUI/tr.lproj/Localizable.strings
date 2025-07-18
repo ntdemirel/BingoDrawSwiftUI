@@ -1,0 +1,42 @@
+/* No comment provided by engineer. */
+"CONTENT_ALERT_TITLE" = "Uyarı";
+
+/* Localizable.strings
+  BingoDrawSwiftUI
+
+  Created by Taha DEMİREL on 27.06.2025. */
+"CONTENT_DRAWN_NUMBER" = "Çekilen Numara";
+
+/* No comment provided by engineer. */
+"CONTENT_PAUSE_BUTTON_TITLE" = "Duraklat";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_BUTTON_TITLE" = "Sıfırla";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_ALERT_MESSAGE" = "Oyunu sıfırlamak istediğinize emin misiniz?";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_CANCEL_BUTTON_TITLE" = "Vazgeç";
+
+/* No comment provided by engineer. */
+"CONTENT_RESET_CONFIRMATION_RESET_BUTTON_TITLE" = "Sıfırla";
+
+/* No comment provided by engineer. */
+"CONTENT_RESUME_BUTTON_TITLE" = "Devam Et";
+
+/* No comment provided by engineer. */
+"CONTENT_START_BUTTON_TITLE" = "Başlat";
+
+/* No comment provided by engineer. */
+"SETTINGS_DRAW_INTERVAL_SETTING" = "Çekim Süresi Ayarı";
+
+/* No comment provided by engineer. */
+"SETTINGS_EVERY " = "Her";
+
+/* No comment provided by engineer. */
+"SETTINGS_SECONDS_PER_DRAW" = "saniyede bir çekim";
+
+/* No comment provided by engineer. */
+"Tombala Matik" = "Tombala Matik";
+
