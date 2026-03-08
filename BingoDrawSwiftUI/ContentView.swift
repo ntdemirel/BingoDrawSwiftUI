@@ -19,6 +19,7 @@ struct ContentView: View {
     @State var showSettings: Bool = false
     @State var showResetConfirmation: Bool = false
     @AppStorage("isSoundEnabled") var isSoundEnabled: Bool = false
+    @AppStorage("speechLanguage") var speechLanguage: String = "system"
 
     let syntheizer = AVSpeechSynthesizer()
     
@@ -189,7 +190,7 @@ struct ContentView: View {
             
         }
         .sheet(isPresented: $showSettings) {
-            SettingsView(drawInterval: $drawInterval)
+            SettingsView(drawInterval: $drawInterval, speechLanguage: $speechLanguage)
         }
         .onChange(of: showSettings) { newValue in
             
@@ -253,10 +254,13 @@ struct ContentView: View {
     }
     
     func speakNumber (number: Int) {
-        let preferredLanguage = Locale.preferredLanguages.first
-        
+        // Seçilen dile göre ya da sistem diline göre seslendirme yap
+        let language = speechLanguage == "system"
+            ? Locale.preferredLanguages.first
+            : speechLanguage
+
         let utterance = AVSpeechUtterance(string: "\(number)")
-        utterance.voice = AVSpeechSynthesisVoice(language: preferredLanguage)
+        utterance.voice = AVSpeechSynthesisVoice(language: language)
         utterance.rate = 0.45
         utterance.pitchMultiplier = 1.2
         utterance.volume = 1.0

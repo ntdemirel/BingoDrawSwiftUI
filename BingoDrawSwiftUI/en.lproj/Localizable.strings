@@ -35,6 +35,33 @@
 "SETTINGS_DRAW_INTERVAL_SETTING" = "Draw Interval Setting";
 
 /* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_ENGLISH" = "English";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_FRENCH" = "French";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_GERMAN" = "German";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_ITALIAN" = "Italian";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_SPANISH" = "Spanish";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_SYSTEM" = "System Language";
+
+/* No comment provided by engineer. */
+"SETTINGS_LANGUAGE_TURKISH" = "Turkish";
+
+/* No comment provided by engineer. */
+"SETTINGS_SPEECH_LANGUAGE_LABEL" = "Language";
+
+/* No comment provided by engineer. */
+"SETTINGS_SPEECH_LANGUAGE_SECTION" = "Speech Language";
+
+/* No comment provided by engineer. */
 "SETTINGS_EVERY " = "Every";
 
 /* No comment provided by engineer. */
