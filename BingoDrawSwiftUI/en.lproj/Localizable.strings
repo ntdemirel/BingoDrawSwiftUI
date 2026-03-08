@@ -29,10 +29,16 @@
 "CONTENT_START_BUTTON_TITLE" = "Start";
 
 /* No comment provided by engineer. */
+"SETTINGS_DRAW_INTERVAL_SECTION" = "Draw Interval";
+
+/* No comment provided by engineer. */
 "SETTINGS_DRAW_INTERVAL_SETTING" = "Draw Interval Setting";
 
 /* No comment provided by engineer. */
 "SETTINGS_EVERY " = "Every";
+
+/* No comment provided by engineer. */
+"SETTINGS_TITLE" = "Settings";
 
 /* No comment provided by engineer. */
 "SETTINGS_SECONDS_PER_DRAW" = "Seconds per draw";

@@ -29,10 +29,16 @@
 "CONTENT_START_BUTTON_TITLE" = "Başlat";
 
 /* No comment provided by engineer. */
+"SETTINGS_DRAW_INTERVAL_SECTION" = "Çekim Süresi";
+
+/* No comment provided by engineer. */
 "SETTINGS_DRAW_INTERVAL_SETTING" = "Çekim Süresi Ayarı";
 
 /* No comment provided by engineer. */
 "SETTINGS_EVERY " = "Her";
+
+/* No comment provided by engineer. */
+"SETTINGS_TITLE" = "Ayarlar";
 
 /* No comment provided by engineer. */
 "SETTINGS_SECONDS_PER_DRAW" = "saniyede bir çekim";
