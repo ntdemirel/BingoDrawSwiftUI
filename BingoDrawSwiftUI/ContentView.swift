@@ -218,6 +218,7 @@ struct ContentView: View {
     
     func startAutoDrawing() {
         
+        UIApplication.shared.isIdleTimerDisabled = true
         
         timer = Timer.scheduledTimer(withTimeInterval: drawInterval, repeats: true) {_ in
             if numbers.isEmpty {
@@ -236,6 +237,8 @@ struct ContentView: View {
     }
     
     func stopAutoDrawing() {
+        UIApplication.shared.isIdleTimerDisabled = false
+        
         timer?.invalidate()
         timer = nil
         isAutoDrawing = false
